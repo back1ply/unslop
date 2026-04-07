@@ -2,6 +2,14 @@
 
 Empirically detect the repetitive defaults a model falls back on, then turn those findings into a reusable instruction file that makes future outputs less generic.
 
+## Install via Claude Code Plugin Marketplace
+
+```
+/plugin install github:mshumer/unslop
+```
+
+This makes `/unslop` available as a slash command in Claude Code. No manual copy-paste needed — the skill stays in sync with repo updates automatically.
+
 ## Send This To Your Agent
 
 Copy and send this sentence:

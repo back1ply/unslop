@@ -1,0 +1,15 @@
+{
+  "$schema": "https://claude.ai/schemas/plugin.json",
+  "name": "unslop",
+  "version": "1.0.0",
+  "description": "Empirically detect repetitive AI model defaults and generate domain-specific skill files to make future outputs less generic",
+  "owner": {
+    "name": "mshumer"
+  },
+  "repository": "https://github.com/mshumer/unslop",
+  "license": "MIT",
+  "keywords": ["ai", "writing", "prompting", "skill", "slop", "defaults"],
+  "engines": {
+    "claude-code": ">=1.0.0"
+  }
+}
