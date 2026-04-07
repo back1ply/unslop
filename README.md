@@ -8,7 +8,7 @@ Empirically detect the repetitive defaults a model falls back on, then turn thos
 /plugin install github:mshumer/unslop
 ```
 
-This makes `/unslop` available as a slash command in Claude Code. No manual copy-paste needed — the skill stays in sync with repo updates automatically.
+This installs the `unslop` skill into Claude Code. The skill stays in sync with repo updates automatically.
 
 ## Send This To Your Agent
 
