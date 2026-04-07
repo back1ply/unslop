@@ -1,6 +1,10 @@
 ---
 name: unslop
 description: Use this skill when you need to run the unslop repo, analyze a domain for repetitive AI defaults, generate a reusable skill file, and verify that the output is specific and materially different from the baseline.
+allowed-tools:
+  - Bash
+  - Read
+  - Write
 ---
 
 # unslop
@@ -30,6 +34,15 @@ Check `unslop-output/analysis.md` and `unslop-output/skill.md`.
 - The `after` result should feel meaningfully less generic than `before`.
 
 If the analysis is thin or obviously missed repeated patterns, rerun or rewrite the analysis from inside `unslop-output` after reviewing the screenshots and sample files directly.
+
+## Prebuilt Profiles
+
+Ready-to-use profiles are available in the `profiles/` directory if you want to skip the analysis step:
+
+- `profiles/writing.md` — general writing defaults to avoid
+- `profiles/react-design.md` — React/UI design defaults to avoid
+
+Copy the relevant profile content into your `CLAUDE.md` or system prompt to apply it immediately.
 
 ## Deliverable
 

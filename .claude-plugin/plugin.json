@@ -1,0 +1,17 @@
+{
+  "name": "unslop",
+  "version": "1.0.0",
+  "description": "Empirically detect repetitive AI model defaults and generate domain-specific skill files to make future outputs less generic",
+  "author": {
+    "name": "mshumer"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mshumer/unslop"
+  },
+  "license": "MIT",
+  "keywords": ["ai", "writing", "prompting", "skill", "slop", "defaults"],
+  "engines": {
+    "claude-code": ">=1.0.0"
+  }
+}
